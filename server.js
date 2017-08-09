@@ -6,8 +6,8 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-    articleOne={},
-    articleTwo={}
+    articleOne = {},
+    articleTwo = {}
 };
  articleOne={
     title:'Article-one|Swathi Perumal',
